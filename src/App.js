@@ -6,6 +6,7 @@ import FeaturesSection from "./components/FeaturesSection";
 import PricingPlansSection from "./components/PricingPlansSection";
 import GlobalNetworkSection from "./components/GlobalNetworkSection";
 import LogoCloud from "./components/LogoCloud";
+import FooterSection from "./components/FooterSection";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <PricingPlansSection />
       <GlobalNetworkSection />
       <LogoCloud />
+      <FooterSection />
     </main>
   );
 }
