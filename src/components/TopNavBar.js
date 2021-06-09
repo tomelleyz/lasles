@@ -32,6 +32,7 @@ const MenuButton = styled.button`
   color: var(--orange);
   border-radius: 10px;
   font-size: 1rem;
+  cursor: pointer;
 
   @media (max-width: ${breakpoints.lg_end}) {
     display: block;
@@ -53,14 +54,14 @@ const CTAsBox = styled.div`
   }
 `;
 
-export default function TopNavBar() {
+export default function TopNavBar({ setIsMobileNavOpen }) {
   return (
     <StyledTopNavBar>
       <LogoContainer>
         <img src={logo} alt="LaslesVPN logo" />
       </LogoContainer>
 
-      <MenuButton>Menu</MenuButton>
+      <MenuButton onClick={() => setIsMobileNavOpen(true)}>Menu</MenuButton>
 
       <MenuBox>
         <Button>About</Button>

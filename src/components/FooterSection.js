@@ -164,7 +164,7 @@ export default function FooterSection() {
         <LogoAndSocialMediaLinksBox>
           <img src={logo} alt="LaslesVPN logo" />
           <p className="companyDescription">
-            <span>LaslesVPN</span> is a private virtual network that has unique
+            <span>LaslesVPN</span> is a virtual private network that has unique
             features and has high security.
           </p>
           <SocialMediaLinksGroup>

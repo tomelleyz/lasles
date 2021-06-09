@@ -7,11 +7,21 @@ import PricingPlansSection from "./components/PricingPlansSection";
 import GlobalNetworkSection from "./components/GlobalNetworkSection";
 import LogoCloud from "./components/LogoCloud";
 import FooterSection from "./components/FooterSection";
+import MobileNav from "./components/MobileNav";
+import { useState } from "react";
 
 function App() {
+  const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
+
   return (
     <main>
-      <TopNavBar />
+      {isMobileNavOpen && (
+        <MobileNav
+          isMobileNavOpen={isMobileNavOpen}
+          setIsMobileNavOpen={setIsMobileNavOpen}
+        />
+      )}
+      <TopNavBar setIsMobileNavOpen={setIsMobileNavOpen} />
       <HeaderSection />
       <MetricsSection />
       <FeaturesSection />
