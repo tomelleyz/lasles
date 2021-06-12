@@ -9,10 +9,10 @@ const StyledFooterSection = styled.footer`
 `;
 
 const SubscribeCard = styled.div`
-  bckground-color: #ffffff;
+  background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 20px 114px rgba(13, 16, 37, 0.06);
-  margin-top: -16%;
+  margin-top: -12rem;
   padding: 3.5rem 4rem;
   display: flex;
   align-items: center;

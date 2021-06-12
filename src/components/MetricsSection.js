@@ -68,6 +68,12 @@ const SingleMetricBox = styled.div`
     flex: 100%;
     justify-content: flex-start;
   }
+  @media (min-width: ${breakpoints.xs}) and (max-width: ${breakpoints.xs_end}) {
+    padding: 1.5rem 10%;
+  }
+  @media (min-width: ${breakpoints.sm}) and (max-width: ${breakpoints.sm_end}) {
+    padding: 1.5rem 20%;
+  }
 `;
 
 export default function MetricsSection() {

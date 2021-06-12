@@ -67,3 +67,7 @@ img {
   height: auto;
   max-width: 100%;
 }
+
+.pricingPlansToTestimonialsSection {
+  background: linear-gradient(to bottom, #f6f6f6, #ffffff);
+}

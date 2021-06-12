@@ -9,6 +9,7 @@ import LogoCloud from "./components/LogoCloud";
 import FooterSection from "./components/FooterSection";
 import MobileNav from "./components/MobileNav";
 import { useState } from "react";
+import TestimonialSection from "./components/TestimonialSection";
 
 function App() {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
@@ -25,9 +26,12 @@ function App() {
       <HeaderSection />
       <MetricsSection />
       <FeaturesSection />
-      <PricingPlansSection />
-      <GlobalNetworkSection />
-      <LogoCloud />
+      <div className="pricingPlansToTestimonialsSection">
+        <PricingPlansSection />
+        <GlobalNetworkSection />
+        <LogoCloud />
+        <TestimonialSection />
+      </div>
       <FooterSection />
     </main>
   );

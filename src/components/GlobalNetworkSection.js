@@ -4,7 +4,6 @@ import hugeGlobalMap from "../assets/images/huge_global_map.png";
 
 const StyledGlobalNetworkSection = styled.section`
   padding: 5rem var(--side-padding);
-  background-color: #f6f6f6;
 
   @media (min-width: ${breakpoints.xs}) and (max-width: ${breakpoints.xs_end}) {
     padding: 5rem 0;

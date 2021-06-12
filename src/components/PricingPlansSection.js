@@ -5,7 +5,6 @@ import Button from "./Button";
 
 const StyledPricingPlansSection = styled.section`
   padding: 5rem var(--side-padding);
-  background-color: #f6f6f6;
 `;
 
 const PricingCardsGroupContainer = styled.div`

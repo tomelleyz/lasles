@@ -8,7 +8,6 @@ import spotify from "../assets/images/spotify.png";
 
 const StyledLogoCloud = styled.section`
   padding: 0 var(--side-padding) 5rem;
-  background-color: #f6f6f6;
 `;
 
 const LogoGroupBox = styled.div`
